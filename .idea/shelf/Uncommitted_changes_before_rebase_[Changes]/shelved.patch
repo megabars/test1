@@ -1,0 +1,158 @@
+Index: .idea/encodings.xml
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+deleted file mode 100644
+--- a/.idea/encodings.xml	(revision af9338f89742791b8924cfe598d733c0c6ac42b4)
++++ /dev/null	(revision af9338f89742791b8924cfe598d733c0c6ac42b4)
+@@ -1,9 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="Encoding">
+-    <file url="file://$APPLICATION_HOME_DIR$/jbr/bin/src/main/java" charset="UTF-8" />
+-    <file url="file://$APPLICATION_HOME_DIR$/jbr/bin/src/main/resources" charset="UTF-8" />
+-    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+-    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+deleted file mode 100644
+--- a/.idea/misc.xml	(revision af9338f89742791b8924cfe598d733c0c6ac42b4)
++++ /dev/null	(revision af9338f89742791b8924cfe598d733c0c6ac42b4)
+@@ -1,13 +0,0 @@
+-<project version="4">
+-  <component name="ExternalStorageConfigurationManager" enabled="true" />
+-  <component name="MavenProjectsManager">
+-    <option name="originalFiles">
+-      <list>
+-        <option value="$PROJECT_DIR$/pom.xml" />
+-      </list>
+-    </option>
+-  </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/out" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+deleted file mode 100644
+--- a/.idea/vcs.xml	(revision af9338f89742791b8924cfe598d733c0c6ac42b4)
++++ /dev/null	(revision af9338f89742791b8924cfe598d733c0c6ac42b4)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/jarRepositories.xml
+===================================================================
+diff --git a/.idea/jarRepositories.xml b/.idea/jarRepositories.xml
+deleted file mode 100644
+--- a/.idea/jarRepositories.xml	(revision af9338f89742791b8924cfe598d733c0c6ac42b4)
++++ /dev/null	(revision af9338f89742791b8924cfe598d733c0c6ac42b4)
+@@ -1,28 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="RemoteRepositoriesConfiguration">
+-    <remote-repository>
+-      <option name="id" value="central" />
+-      <option name="name" value="Central Repository" />
+-      <option name="url" value="https://repo.maven.apache.org/maven2" />
+-    </remote-repository>
+-    <remote-repository>
+-<<<<<<< HEAD
+-      <option name="id" value="snapshots-repo" />
+-      <option name="name" value="snapshots-repo" />
+-      <option name="url" value="https://oss.sonatype.org/content/repositories/snapshots" />
+-    </remote-repository>
+-    <remote-repository>
+-=======
+->>>>>>> f4c5729 (2)
+-      <option name="id" value="central" />
+-      <option name="name" value="Maven Central repository" />
+-      <option name="url" value="https://repo1.maven.org/maven2" />
+-    </remote-repository>
+-    <remote-repository>
+-      <option name="id" value="jboss.community" />
+-      <option name="name" value="JBoss Community repository" />
+-      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+-    </remote-repository>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/test1.iml
+===================================================================
+diff --git a/.idea/test1.iml b/.idea/test1.iml
+deleted file mode 100644
+--- a/.idea/test1.iml	(revision af9338f89742791b8924cfe598d733c0c6ac42b4)
++++ /dev/null	(revision af9338f89742791b8924cfe598d733c0c6ac42b4)
+@@ -1,9 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="JAVA_MODULE" version="4">
+-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+-    <exclude-output />
+-    <content url="file://$MODULE_DIR$" />
+-    <orderEntry type="inheritedJdk" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+--- a/.idea/.gitignore	(revision af9338f89742791b8924cfe598d733c0c6ac42b4)
++++ /dev/null	(revision af9338f89742791b8924cfe598d733c0c6ac42b4)
+@@ -1,10 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+-# Editor-based HTTP Client requests
+-/httpRequests/
+-# Datasource local storage ignored files
+-/dataSources/
+-/dataSources.local.xml
+-# Zeppelin ignored files
+-/ZeppelinRemoteNotebooks/
+Index: .idea/compiler.xml
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+deleted file mode 100644
+--- a/.idea/compiler.xml	(revision af9338f89742791b8924cfe598d733c0c6ac42b4)
++++ /dev/null	(revision af9338f89742791b8924cfe598d733c0c6ac42b4)
+@@ -1,13 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="CompilerConfiguration">
+-    <annotationProcessing>
+-      <profile name="Maven default annotation processors profile" enabled="true">
+-        <sourceOutputDir name="target/generated-sources/annotations" />
+-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+-        <outputRelativeToContentRoot value="true" />
+-        <module name="Main" />
+-      </profile>
+-    </annotationProcessing>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/kuzyanov_google-java-format.xml
+===================================================================
+diff --git a/.idea/kuzyanov_google-java-format.xml b/.idea/kuzyanov_google-java-format.xml
+deleted file mode 100644
+--- a/.idea/kuzyanov_google-java-format.xml	(revision af9338f89742791b8924cfe598d733c0c6ac42b4)
++++ /dev/null	(revision af9338f89742791b8924cfe598d733c0c6ac42b4)
+@@ -1,7 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="GoogleJavaFormatSettings">
+-    <option name="enabled" value="false" />
+-    <option name="maxLineLength" value="140" />
+-  </component>
+-</project>
+\ No newline at end of file

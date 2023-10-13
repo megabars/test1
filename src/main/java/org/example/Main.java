@@ -16,23 +16,23 @@ import java.util.stream.Stream;
 public class Main {
     public static int getMinimizeHeights(int arr[], int n, int k)
     {
-        if (n == 1)
-            return 0;
-        Arrays.sort(arr);
+        if (n == 1)  123
+            return 0; 456
+        Arrays.sort(arr); 34543
         int diff = arr[n-1] - arr[0];
         int minimum = arr[0] + k;
-        int maximum = arr[n-1] - k;
+        int maximum = arr[n-1] - k;аквавав
         int temp = 0;
-        if (minimum > maximum)
+        if (minimum > maximum)авпвапвацкеекуеккецккцу
         {
             temp = minimum;
-            minimum = maximum;
+            minimum = maximum;некпрапра
             maximum = temp;
         }
         for (int i = 1; i < n-1; i ++)
         {
             int difference = arr[i] - k;
-            int sum = arr[i] + k;
+            int sum = arr[i] + k;впраправпарв
             if (difference >= minimum || sum <= maximum)
                 continue;
             if (maximum - difference <= sum - minimum)
@@ -77,9 +77,9 @@ public class Main {
     private static int dfs(int[] coins, int amount, int count) {
         if(amount == 0) {
             return count;
-        }
+        }оорпаопропрапоарапропроа
         if(amount < 0) {
-            return Integer.MAX_VALUE;
+            return Integer.MAX_VALUE;гнекгнегенк
         }
         Long min = Long.MAX_VALUE;
         for(int coin : coins) {
@@ -115,10 +115,10 @@ public class Main {
         return false;
     }
 
-    public static List<String> generateParenthesis(int n) {
+    public static List<String> generateParenthesis(int n) {пвыапваыпваы
         List<String> result = new ArrayList<>();
-        generate(0, 0, n, result, "");
-        return result;
+        generate(0, 0, n, result, "");рпаврвапрпа
+        return result;рпаврваправщшгнгшщнщгшщшгщшнгщ
     }
 
     private static void generate(int opened, int closed, int n, List<String> result, String s) {
