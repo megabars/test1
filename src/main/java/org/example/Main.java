@@ -90,15 +90,26 @@ public class Main {
 
 
 
+
+
+
+
+
     public static boolean canJump(int[] nums) {
-        boolean[] dp = new boolean[nums.length];
-        dp[nums.length - 1] = true;
+        boolean[] dp = new boolean[nums.length]; 111
+        dp[nums.length - 1] = true;222
         int cur = nums.length - 1;
         for(int i = nums.length - 2; i >= 0; i--) {
             if(nums[i] >= cur - i) {
                 dp[i] = true;
                 cur = i;
             }
+
+
+
+
+
+
         }
         return dp[0];
     }
