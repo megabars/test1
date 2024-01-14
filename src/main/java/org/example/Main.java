@@ -1,17 +1,7 @@
 package org.example;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.text.ParseException;
 import java.util.*;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class Main {
     public static int getMinimizeHeights(int arr[], int n, int k)
@@ -20,6 +10,7 @@ public class Main {
 
 
 main
+        test-branch-1
         test-branch-2
                 222
             return 0;
