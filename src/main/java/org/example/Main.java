@@ -19,7 +19,7 @@ public class Main {
         if (n == 1)
 
 
-test-branch-1
+main
             return 0;
         Arrays.sort(arr);
         int diff = arr[n-1] - arr[0];
