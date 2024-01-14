@@ -37,6 +37,10 @@ public class Main {
         IntStream.of(1,2,3,4,5).max();
     }
 
+    /**
+     * test-branch-2
+     * @param m
+     */
     public static void msg(String m) {
         m = m + "qwq";
     }
